@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:padding="10dp">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:padding="10dp" android:background="@drawable/arkaplan">
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp" app:srcCompat="@drawable/gul" android:id="@+id/kartResim"
+                android:layout_weight="1"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1">
+            <TextView
+                    android:text="Çiçek adı"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/kartAdi" android:textSize="24sp"
+                    android:textColor="@color/baslik" android:maxLines="1"/>
+            <TextView
+                    android:text="Çiçek açıklama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/kartAciklama" android:maxLines="3"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

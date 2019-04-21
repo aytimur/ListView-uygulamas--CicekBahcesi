@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d47a1</color>
+    <color name="colorPrimaryDark">#002171</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="gri">#e0e0e0</color>
+    <color name="beyaz">#ffffff</color>
+    <color name="baslik">#0D47A1</color>
+</resources>
